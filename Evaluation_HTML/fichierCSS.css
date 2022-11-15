@@ -1,17 +1,35 @@
-h1
-{
+/*titre chapitre*/
+h1{
     color: rgba(165, 42, 42, 0.822);
 }
 
-h2
-{
-    color: rgb(39, 150, 158);
-  }
+/*Liste*/
+h2{
+    color: rgb(145, 94, 94);
+}
 
-  p
-  {color: blueviolet;
+/*paragraphe*/
+p{
+    color: rgb(168, 103, 18);
+    font-style: italic;
 }
-body
-{background-color: antiquewhite;/*fond de page*/
-color: rgb(243, 10, 10)/*Texte body*/;
+
+
+/*Corps de page*/
+body{
+    background-color: antiquewhite;/*fond de page*/
+    background-image: url(../Evaluation_HTML/images/logo.png);
+    background-repeat: no-repeat;/*pas de mosaique*/
+    background-position: center;/*image en bas a droite*/
+    background-attachment: fixed;/*fixer image au fond*/
 }
+
+/* Lien transparent*/
+#transp{
+color: rgba(165, 42, 42, 0.822);
+}
+
+/*Image centrée*/
+img{
+display: block;
+margin:0px auto;}
