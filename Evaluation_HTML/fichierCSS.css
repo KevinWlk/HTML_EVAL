@@ -1,0 +1,17 @@
+h1
+{
+    color: rgba(165, 42, 42, 0.822);
+}
+
+h2
+{
+    color: rgb(39, 150, 158);
+  }
+
+  p
+  {color: blueviolet;
+}
+body
+{background-color: antiquewhite;/*fond de page*/
+color: rgb(243, 10, 10)/*Texte body*/;
+}
