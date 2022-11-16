@@ -6,6 +6,13 @@
     width: auto;
     text-align: center;
 }
+h1{
+    color: rgba(165, 42, 42, 0.822);
+    margin-left: auto ;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+}
 /*Liste*/
 h2{
     font-style: normal;
@@ -43,8 +50,9 @@ nav ul li{
 
 nav a{
     display: block;
+    font-size: larger;
     text-decoration: none;
-    color: rgb(104, 53, 53);
+    color: rgb(120, 107, 20);
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
@@ -70,8 +78,10 @@ body{
     background-repeat: no-repeat;/*pas de mosaique*/
     background-position: center;/*image en bas a droite*/
     background-attachment: fixed;/*fixer image au fond*/
+    background-size: 50em;
     color: white
 }
+
 
 
 a{
@@ -93,7 +103,7 @@ li{
 
 /* Lien transparent*/
 #transp{
-color: rgba(165, 42, 42, 0.2);
+color: rgba(220, 2, 2, 0.801);
 }
 
 table, th, td {
@@ -127,6 +137,7 @@ padding: 0.5em;
     position: relative;
     box-shadow: 1px 1px 1px rgb(145, 24, 24) ;
     margin-left: auto ;
+
    
 
 }
@@ -158,6 +169,13 @@ a:hover
 
 }
 
+article{
+column-count: 2;
+background-color: rgba(183, 138, 4, 0.6);
+text-align: justify;
+margin-left: 50px;
+margin-right: 50px;
+}
+
 
     
-
